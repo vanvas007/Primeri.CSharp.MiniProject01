@@ -36,13 +36,17 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\About\About.csproj">
-      <Project>{11E97218-9DA0-4AA9-9204-90D309E025E4}</Project>
-      <Name>About</Name>
+    <ProjectReference Include="..\Calculations\Calculations.csproj">
+      <Project>{841C8348-4F37-417C-9716-2832F2E2289D}</Project>
+      <Name>Calculations</Name>
     </ProjectReference>
     <ProjectReference Include="..\Colors\Colors.csproj">
       <Project>{747F3BE4-008E-4FC0-ADAC-4A4A1E6AA606}</Project>
       <Name>Colors</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\About\About.csproj">
+      <Project>{11E97218-9DA0-4AA9-9204-90D309E025E4}</Project>
+      <Name>About</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

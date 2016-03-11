@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{11E97218-9DA0-4AA9-9204-90D309E025E4}</ProjectGuid>
+    <ProjectGuid>{841C8348-4F37-417C-9716-2832F2E2289D}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>About</RootNamespace>
-    <AssemblyName>About</AssemblyName>
+    <RootNamespace>Calculations</RootNamespace>
+    <AssemblyName>Calculations</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
@@ -34,7 +34,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Me.cs" />
+    <Compile Include="Calculations.cs" />
+    <Compile Include="Formula01.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
