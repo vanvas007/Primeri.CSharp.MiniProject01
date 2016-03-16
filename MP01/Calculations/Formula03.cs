@@ -6,11 +6,6 @@ namespace Calculations
 	{
 		private Colors.ForCLI _cl = new Colors.ForCLI ();
 
-
-		//public Formula03 ()
-		//{
-		//}
-
 		//формула за изпъкнатнат ъгъл
 		public Formula03 ()
 		{
